@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Smartz_GoogleCSE>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Smartz_GoogleCSE>
+    </modules>
+</config>
