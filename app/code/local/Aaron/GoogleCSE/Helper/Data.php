@@ -1,13 +1,13 @@
 <?php
 
-class Smartz_GoogleCSE_Helper_Data extends Mage_Core_Helper_Abstract
+class Aaron_GoogleCSE_Helper_Data extends Mage_Core_Helper_Abstract
 { 	
-	const XML_PATH_ACTIVE = 'google/smartzgooglecse/active';
-	const XML_PATH_ACCOUNT_ID = 'google/smartzgooglecse/account';
-	const XML_PATH_DISPLAY_OPTIONS = 'google/smartzgooglecse/show';
-	const XML_PATH_SEARCH_URL = 'google/smartzgooglecse/search_url';
-	const XML_PATH_IFRAME_WIDTH = 'google/smartzgooglecse/width';
-	const XML_PATH_IFRAME_HEIGHT = 'google/smartzgooglecse/height';
+	const XML_PATH_ACTIVE = 'google/aarongooglecse/active';
+	const XML_PATH_ACCOUNT_ID = 'google/aarongooglecse/account';
+	const XML_PATH_DISPLAY_OPTIONS = 'google/aarongooglecse/show';
+	const XML_PATH_SEARCH_URL = 'google/aarongooglecse/search_url';
+	const XML_PATH_IFRAME_WIDTH = 'google/aarongooglecse/width';
+	const XML_PATH_IFRAME_HEIGHT = 'google/aarongooglecse/height';
 
 	public function active_bool(){
 		return Mage::getStoreConfig(self::XML_PATH_ACTIVE);

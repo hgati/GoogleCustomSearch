@@ -1,6 +1,6 @@
 <?php
 
-class Smartz_GoogleCSE_Model_System_Config_Source_Display
+class Aaron_GoogleCSE_Model_System_Config_Source_Display
 {
     /**
      * Get display options
@@ -12,15 +12,15 @@ class Smartz_GoogleCSE_Model_System_Config_Source_Display
         return array(
             array(
                 'value' => 'store',
-                'label' => Mage::helper('smartzgooglecse')->__('Only Store Results')
+                'label' => Mage::helper('aarongooglecse')->__('Only Store Results')
             ),
             array(
                 'value' => 'google',
-                'label' => Mage::helper('smartzgooglecse')->__('Only Google Results')
+                'label' => Mage::helper('aarongooglecse')->__('Only Google Results')
             ),
             array(
                 'value' => 'both',
-                'label' => Mage::helper('smartzgooglecse')->__('Store and Google Results')
+                'label' => Mage::helper('aarongooglecse')->__('Store and Google Results')
             )
         );
     }

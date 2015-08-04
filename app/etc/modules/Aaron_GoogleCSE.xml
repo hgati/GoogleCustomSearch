@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Smartz_GoogleCSE>
+        <Aaron_GoogleCSE>
             <active>true</active>
             <codePool>local</codePool>
-        </Smartz_GoogleCSE>
+        </Aaron_GoogleCSE>
     </modules>
 </config>

@@ -24,7 +24,7 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<?php $display_option = $this->helper('smartzgooglecse')->display_options(); ?>
+<?php $display_option = $this->helper('aarongooglecse')->display_options(); ?>
 
 <?php if ($display_option == 'both' || $display_option == 'store') : ?>
     <?php if($this->getResultCount()): ?>
@@ -58,8 +58,8 @@
     <?php endif; ?>
 <?php endif; ?>
 
-<?php if ($this->helper('smartzgooglecse')->active_bool() && ($display_option == 'both' || $display_option == 'google')) :?>
+<?php if ($this->helper('aarongooglecse')->active_bool() && ($display_option == 'both' || $display_option == 'google')) :?>
 <div class="googlecse">
-<iframe frameborder="0" width="<?php echo ($this->helper('smartzgooglecse')->iframe_width());?>" height="<?php echo ($this->helper('smartzgooglecse')->iframe_height()); ?>" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowtransparency="true" scrolling="no" src="http://www.google.com/cse?cx=<?php echo ($this->helper('smartzgooglecse')->account());?>&amp;cof=FORID%3A11&amp;ie=UTF-8&amp;q=<?php echo ($this->helper('catalogsearch')->getEscapedQueryText()) ?>&amp;ad=n9&amp;num=10&amp;rurl=http%3A%2F%2F<?php echo $_SERVER['HTTP_HOST'] ?><?php echo urlencode($this->helper('smartzgooglecse')->custom_search_url()) ?>%3Fcx%3D<?php echo $cseId;?>%26cof%3DFORID%253A11%26ie%3DUTF-8%26q%3D<?php echo ($this->helper('catalogsearch')->getEscapedQueryText()) ?>#gsc.tab=0&amp;gsc.q=<?php echo ($this->helper('catalogsearch')->getEscapedQueryText()) ?>&amp;gsc.page=1"></iframe>
+<iframe frameborder="0" width="<?php echo ($this->helper('aarongooglecse')->iframe_width());?>" height="<?php echo ($this->helper('aarongooglecse')->iframe_height()); ?>" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowtransparency="true" scrolling="no" src="http://www.google.com/cse?cx=<?php echo ($this->helper('aarongooglecse')->account());?>&amp;cof=FORID%3A11&amp;ie=UTF-8&amp;q=<?php echo ($this->helper('catalogsearch')->getEscapedQueryText()) ?>&amp;ad=n9&amp;num=10&amp;rurl=http%3A%2F%2F<?php echo $_SERVER['HTTP_HOST'] ?><?php echo urlencode($this->helper('aarongooglecse')->custom_search_url()) ?>%3Fcx%3D<?php echo $cseId;?>%26cof%3DFORID%253A11%26ie%3DUTF-8%26q%3D<?php echo ($this->helper('catalogsearch')->getEscapedQueryText()) ?>#gsc.tab=0&amp;gsc.q=<?php echo ($this->helper('catalogsearch')->getEscapedQueryText()) ?>&amp;gsc.page=1"></iframe>
 </div>
 <?php endif; ?>
