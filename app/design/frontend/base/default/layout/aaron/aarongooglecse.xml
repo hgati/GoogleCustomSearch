@@ -32,7 +32,7 @@
         <label>Quick Search Form</label>
         <reference name="content">
             <remove name="search.result" />
-            <block type="catalogsearch/result" name="googlecse.result" template="smartz/googlecse/result.phtml">
+            <block type="catalogsearch/result" name="googlecse.result" template="aaron/googlecse/result.phtml">
                 <block type="catalog/product_list" name="search_result_list" template="catalog/product/list.phtml">
                     <block type="catalog/product_list_toolbar" name="product_list_toolbar" template="catalog/product/list/toolbar.phtml">
                         <block type="page/html_pager" name="product_list_toolbar_pager"/>
@@ -45,7 +45,7 @@
                     <action method="setToolbarBlockName"><name>product_list_toolbar</name></action>
                 </block>
             </block>
-            <!-- <block type="core/template" name="googlecse.result" template="smartz/googlecse/result.phtml"></block> -->
+            <!-- <block type="core/template" name="googlecse.result" template="aaron/googlecse/result.phtml"></block> -->
         </reference>
     </catalogsearch_result_index>
 

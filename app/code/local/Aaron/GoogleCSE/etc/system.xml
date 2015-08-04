@@ -29,7 +29,7 @@
     <sections>
         <google>
             <groups>
-                <smartzgooglecse translate="label" module="smartzgooglecse">
+                <aarongooglecse translate="label" module="aarongooglecse">
                     <label>Google Custom Search</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>20</sort_order>
@@ -37,7 +37,7 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                        <active translate="label" module="smartzgooglecse">
+                        <active translate="label" module="aarongooglecse">
                             <label>Enable</label>
                             <frontend_type>select</frontend_type>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
@@ -46,16 +46,16 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </active>
-                        <show translate="label" module="smartzgooglecse">
+                        <show translate="label" module="aarongooglecse">
                             <label>Display Options</label>
                             <frontend_type>select</frontend_type>
-                            <source_model>smartzgooglecse/system_config_source_display</source_model>
+                            <source_model>aarongooglecse/system_config_source_display</source_model>
                             <sort_order>15</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </show>
-                        <account translate="label" module="smartzgooglecse">
+                        <account translate="label" module="aarongooglecse">
                             <label>Custom Search Code</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>20</sort_order>
@@ -64,7 +64,7 @@
                             <show_in_store>1</show_in_store>
                             <comment>This you can get by purchasing Google Custom Search here http://google.com/cse/</comment>
                         </account>
-                        <search_url translate="label" module="smartzgooglecse">
+                        <search_url translate="label" module="aarongooglecse">
                             <label>Search Page URL</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>30</sort_order>
@@ -73,7 +73,7 @@
                             <show_in_store>1</show_in_store>                            
                             <comment>This is typically "/catalogsearch/result/" but may be different depending on your store's setup</comment>
                         </search_url>
-                        <width translate="label" module="smartzgooglecse">
+                        <width translate="label" module="aarongooglecse">
                             <label>Iframe Width</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>40</sort_order>
@@ -81,7 +81,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </width>
-                        <height translate="label" module="smartzgooglecse">
+                        <height translate="label" module="aarongooglecse">
                             <label>Iframe Height</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>50</sort_order>
@@ -90,7 +90,7 @@
                             <show_in_store>1</show_in_store>
                         </height>
                     </fields>
-                </smartzgooglecse>
+                </aarongooglecse>
             </groups>
         </google>
     </sections>

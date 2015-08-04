@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Aaron_GoogleCSE>
+            <version>0.0.1</version>
+        </Aaron_GoogleCSE>
+    </modules>
+    <frontend>
+        <routers>
+            <aarongooglecse>
+                <use>standard</use>
+                <args>
+                    <module>Aaron_GoogleCSE</module>
+                    <frontName>aarongooglecse</frontName>
+                </args>
+            </aarongooglecse>
+        </routers>
+        <layout>
+            <updates>
+                <aarongooglecse>
+                    <file>aaron/aarongooglecse.xml</file>
+                </aarongooglecse>
+            </updates>
+        </layout>
+    </frontend> 
+    <global>
+        <blocks>
+            <aarongooglecse>
+                <class>Aaron_GoogleCSE_Block</class>
+            </aarongooglecse>
+        </blocks>        
+		<helpers>
+			<aarongooglecse>
+				<class>Aaron_GoogleCSE_Helper</class>
+			</aarongooglecse>
+		</helpers>
+        <models>
+            <aarongooglecse>
+                <class>Aaron_GoogleCSE_Model</class>
+            </aarongooglecse>
+        </models>
+    </global>
+</config>
