@@ -1,0 +1,15 @@
+{
+	"name": "hgati/google-custom-search",
+	"type": "magento-module",
+	"license":"OSL-3.0",
+	"description": "Google Custom Search for Magento 1.x",
+
+    "extra": {
+    	"map": [
+    		["app/code/local/Aaron/GoogleCSE", "app/code/local/Aaron/GoogleCSE"],
+			["app/design/frontend/base/default/layout/aaron", "app/design/frontend/base/default/layout/aaron"],
+			["app/design/frontend/base/default/template/aaron/googlecse", "app/design/frontend/base/default/template/aaron/googlecse"],
+    		["app/etc/modules/Aaron_GoogleCSE.xml", "app/etc/modules/Aaron_GoogleCSE.xml"]
+    	]
+    }
+}
